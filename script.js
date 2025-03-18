@@ -23,6 +23,7 @@ numbers.forEach((button) => {
 
         if(!choice && !sin)
         {
+          outputDisplay.textContent = "";
           firstInput += e.target.textContent;
               inputScreen.textContent += e.target.textContent;
         }
@@ -55,6 +56,7 @@ sign.addEventListener("click", () => {
      
         if(!sin)
         {
+          outputDisplay.textContent = "";
          inputScreen.textContent = "-";
              sin = "-"
           }
